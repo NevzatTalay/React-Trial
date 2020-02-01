@@ -1,0 +1,20 @@
+{
+    "newz": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-mysumerianapp2-newz-175544-authRole",
+            "UnauthRoleArn": "arn:aws:iam::082633863649:role/amplify-mysumerianapp2-newz-175544-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::082633863649:role/amplify-mysumerianapp2-newz-175544-authRole",
+            "Region": "eu-west-2",
+            "DeploymentBucketName": "amplify-mysumerianapp2-newz-175544-deployment",
+            "UnauthRoleName": "amplify-mysumerianapp2-newz-175544-unauthRole",
+            "StackName": "amplify-mysumerianapp2-newz-175544",
+            "StackId": "arn:aws:cloudformation:eu-west-2:082633863649:stack/amplify-mysumerianapp2-newz-175544/88866840-444a-11ea-8738-021679f87d94",
+            "AmplifyAppId": "d3r1tcgutybx81"
+        },
+        "categories": {
+            "auth": {
+                "mysumerianapp282934abf": {}
+            }
+        }
+    }
+}

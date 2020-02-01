@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"mysumerianapp282934abf": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
