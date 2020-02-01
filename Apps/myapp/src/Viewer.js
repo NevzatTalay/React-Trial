@@ -17,14 +17,14 @@ export default class Viewer extends Component<{}, {}> {
         const light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), scene);
         light.intensity = 0.7;
 
-        //BABYLON.SceneLoader.Append("/assets/", 'Chair.obj', scene, function (scene) { });
-// Our built-in 'sphere' shape. Params: name, subdivs, size, scene
-//var sphere = BABYLON.Mesh.CreateSphere("sphere1", 16, 2, scene);
+
+///////////////////////////////////////////////////////////////////////////////
+
+
 BABYLON.SceneLoader.Append("", 'Chair.obj', scene, function (scene) { });
-// Move the sphere upward 1/2 its height
-//sphere.position.y = 1;
 
 
+//////////////////////////////////////////////////////////////////////////////
 
 
 
