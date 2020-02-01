@@ -20,7 +20,7 @@ export default class Viewer extends Component<{}, {}> {
         //BABYLON.SceneLoader.Append("/assets/", 'Chair.obj', scene, function (scene) { });
 // Our built-in 'sphere' shape. Params: name, subdivs, size, scene
 //var sphere = BABYLON.Mesh.CreateSphere("sphere1", 16, 2, scene);
-const obje = BABYLON.SceneLoader.Append("", 'Chair.obj', scene, function (scene) { });
+BABYLON.SceneLoader.Append("", 'Chair.obj', scene, function (scene) { });
 // Move the sphere upward 1/2 its height
 //sphere.position.y = 1;
 
